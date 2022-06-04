@@ -43,7 +43,7 @@ class Api():
 	def createBot(self, params, attributes):
 
 		try:
-			query = "pair=" + params['pair'] + "&exchange=" + params['exchange']
+			query = "pair=" + params['pair'] + "&exchange=" + params['exchange'] + "&access=" + params['access']
 			pass
 
 		except Exception as e:
